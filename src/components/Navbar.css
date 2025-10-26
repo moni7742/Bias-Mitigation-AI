@@ -1,0 +1,41 @@
+.navbar {
+  position: relative;
+  padding: 10px 20px;
+  background-color: #333;
+  color: white;
+}
+
+/* Hamburger icon */
+.hamburger {
+  width: 30px;
+  cursor: pointer;
+}
+
+.hamburger .line {
+  height: 3px;
+  background-color: white;
+  margin: 5px 0;
+  border-radius: 2px;
+}
+
+/* Links hidden by default */
+.nav-links {
+  display: none;
+  flex-direction: column;
+  margin-top: 10px;
+}
+
+.nav-links a {
+  color: white;
+  text-decoration: none;
+  padding: 8px 0;
+}
+
+.nav-links a:hover {
+  text-decoration: underline;
+}
+
+/* Show links when open */
+.nav-links.open {
+  display: flex;
+}
